@@ -36,7 +36,7 @@ public class PodgladFilter implements Filter {
 			List<Pacjent> pacjenci =(List<Pacjent>)session.getAttribute("pacjenci") ;
 			if (pacjenci == null || pacjenci.size() == 0){
 				
-				resp.sendRedirect("addPacjent.html");
+				resp.sendRedirect("/eDoc/addPacjent.html");
 				
 			}
 			
